@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stiloBody {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+	
+}
+.stiloImagen {
+	box-shadow: 4px 4px 16px rgba(240, 236, 236, 0.959);
+}
+.stiloH1 {
+    font-size: 2.5em;
+    text-shadow: 0 3px 0 rgba(65, 64, 64, 0.5);
+
+ }
+
+ .stiloMain {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+ }
+
+ .estiloParrafoMain {
+    font-size: 1.2em;
+    line-height: 1.8;
+ }
+
+ .formulario label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+    color: #444;
+    font-size: 1.2em;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario input[type="tel"]:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    border-color: #1a73e8; /* Azul al enfocar */
+}
+
+.formulario textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.politica input {
+    transform: scale(1.2);
+}
+
+.stiloBoton {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    padding: 12px 29px;
+}
+
+.stiloBoton2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    padding: 12px 20px;
+}
+
+.contenedor_enviar button:hover {
+    background-color: #0c5bbf; 
+}
+footer {
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    border-radius: 0px;
+    box-shadow: 0 -6px 15px rgba(0, 0, 0, 0.1);
+}
+footer p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em; /* Ajuste del tamaño del título para pantallas pequeñas */
+        padding-left: 120px; /* Ajuste del espacio para la imagen */
+    }
+
+    .formulario label {
+        font-size: 1.1em;
+    }
+
+    .formulario input[type="email"],
+    .formulario input[type="tel"],
+    .formulario select,
+    .formulario textarea {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .contenedor_enviar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contenedor_enviar button {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 1.1em;
+    }
+
+    .stiloMain  {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
+}
+
+/* Media Queries para dispositivos más pequeños (móviles en retrato) */
+@media (max-width: 480px) {
+    .stiloH1{
+        font-size: 1.8em; /* Ajuste adicional para pantallas muy pequeñas */
+        padding-left: 110px; /* Ajuste adicional para la imagen */
+    }
+
+    .formulario label {
+        font-size: 1em;
+    }
+
+    .formulario input[type="email"],
+    .formulario input[type="tel"],
+    .formulario select,
+    .formulario textarea {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    .contenedor_enviar button {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 1em;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+}
