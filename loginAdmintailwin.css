@@ -1,0 +1,43 @@
+.stiloBody{
+    font-family: sans-serif;
+    background: linear-gradient(#e61d74, #fff);
+    height: 100vh;
+    margin: 0;
+}
+
+.from-container{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.logo {
+    align-items: left;
+}
+
+.form-group {
+   
+}
+
+.label{
+    color:  #555;
+}
+
+.input{
+    border:  1px solid #110f0f;
+}
+
+button {
+    width: 100%;
+    background-color: #f1ecf1;
+    color: black;
+    padding: 10px;
+    border:  #0c0909;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: rgb(231, 56, 129);
+}
