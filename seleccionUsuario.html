@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="seleccionUsuario.css">
+    <!-- <link rel="stylesheet" href="seleccionUsuario.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Seleccion de Usuario</title>
 </head>
@@ -28,12 +28,15 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-36 p-10
         w-full max-w-6xl box-border ">
 
-        
-            <div class="card relative flex items-end max-w-[350px] h-[500px] py-[30px] px-[25px] bg-white shadow-[0px_7px_10px_rgba(0,_0,_0,_0.5)] transition-all duration-500 ease-in-out rounded-[45px] hover:translate-y-5"> 
 
-                <img src="https://www.cenieh.es/sites/default/files/default_images/Foto%20perfil%20anonimo.png" alt="imagen de anonimo" class="w-full h-full object-cover absolute top-0 left-0 rounded-[40px]">
+            <div
+                class="card group relative flex items-end max-w-[350px] h-[500px] py-[30px] px-[25px] bg-white shadow-md rounded-[45px] hover:translate-y-5 overflow-hidden transition duration-500 ease-in-out after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-b after:from-[rgba(208,195,195,0.5)] after:to-[rgb(255,0,255)] after:opacity-0 after:transition-all after:duration-500 after:rounded-[40px] hover:after:opacity-100">
 
-                <div class="relative z-[3] text-white opacity-0 translate-y-[30px] transition-all duration-500 hover:opacity-100 hover:translate-y-0 ">  
+                <img src="https://cdn-icons-png.flaticon.com/512/5963/5963860.png"
+                    alt="imagen de anonimo" class="w-full h-full object-cover absolute top-0 left-0 rounded-[40px]">
+
+                <div
+                    class="relative z-[3] text-white opacity-0 translate-y-[30px] transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0 ">
                     <h1 class="text-[30px] m-0">Anonimo </h1>
                     <p class="text-[15px] mt-[10px] mb-[25px] mx-0 leading-[130%]">
                         Cuando se ingresa una PQR (Petición, Queja o Reclamo) de manera anónima, la idea es proteger la
@@ -41,34 +44,53 @@
                         o
                         número de teléfono para poder dar una respuesta o hacer seguimiento al caso.
                     </p>
-                    <a href="anonimo.html" class="btn text-decoration-none py-[5px] px-5 bg-white text-[#4b5563] text-[0.85rem] font-bold rounded-full cursor-pointer transition-all duration-300 ease-in"> Ir</a>
+                    <a href="anonimo.html"
+                        class="text-decoration-none py-[5px] px-5 bg-white text-[#4b5563] text-[0.85rem] font-bold rounded-full cursor-pointer transition-all duration-300 ease-in ">
+                        Ir</a>
                 </div>
             </div>
 
-            <div class="card relative flex items-end max-w-[350px] h-[500px] p-6 bg-white shadow-lg transition-all duration-500 ease-in-out rounded-[45px] hover:translate-y-5">
+            <div
+                class="card group relative flex items-end max-w-[350px] h-[500px] py-[30px] px-[25px] bg-white shadow-md rounded-[45px] hover:translate-y-5 overflow-hidden transition duration-500 ease-in-out after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-b after:from-[rgba(208,195,195,0.5)] after:to-[rgb(255,0,255)] after:opacity-0 after:transition-all after:duration-500 after:rounded-[40px] hover:after:opacity-100">
+
                 <img src="https://freepngimg.com/save/61634-vector-businessman-client-design-icon-free-frame/1800x1800"
-                    alt="" class="w-full h-full object-cover absolute top-0 left-0 rounded-[40px] transition-all duration-500">
+                    alt="imagen de anonimo" class="w-full h-full object-cover absolute top-0 left-0 rounded-[40px]">
 
-                <div class="relative z-[3] text-white opacity-0 translate-y-[30px] hover:opacity-100 hover:translate-y-0">
+                <div
+                    class="relative z-[3] text-white opacity-0 translate-y-[30px] transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0 ">
                     <h1 class="text-[30px] m-0">Profesor, Estudiante o Visitante</h1>
-                    <p class="text-[15px] mt-[10px] mb-[25px] mx-0 leading-[130%]">Si eres profesor, estudiante o visitante, accede aquí para continuar con el siguiente paso y
+                    <p class="text-[15px] mt-[10px] mb-[25px] mx-0 leading-[130%]">
+                        Si eres profesor, estudiante o
+                        visitante, accede aquí para continuar con el siguiente paso y
                         obtener
-                        más informacion sobre tu PQRSF.</p>
-                    <a href="formulario.html" class="text-decoration-none py-[5px] px-5 bg-white text-[#4b5563] text-[0.85rem] font-bold rounded-full cursor-pointer transition-all duration-300 ease-in"> Ir</a>
+                        más informacion sobre tu PQRSF.
+                    </p>
+                    <a href="formulario.html"
+                        class="btn text-decoration-none py-[5px] px-5 bg-white text-[#4b5563] text-[0.85rem] font-bold rounded-full cursor-pointer transition-all duration-300 ease-in">
+                        Ir</a>
                 </div>
             </div>
 
-            <div class="card relative flex items-end max-w-[350px] h-[500px] p-6 bg-white shadow-lg transition-all duration-500 ease-in-out rounded-[45px] hover:translate-y-5">
+            <div
+                class="card group relative flex items-end max-w-[350px] h-[500px] py-[30px] px-[25px] bg-white shadow-md rounded-[45px] hover:translate-y-5 overflow-hidden transition duration-500 ease-in-out after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-b after:from-[rgba(208,195,195,0.5)] after:to-[rgb(255,0,255)] after:opacity-0 after:transition-all after:duration-500 after:rounded-[40px] hover:after:opacity-100">
+
                 <img src="https://png.pngtree.com/png-vector/20230313/ourmid/pngtree-admin-of-female-job-vacancies-vector-png-image_6646511.png"
-                    alt="" class="w-full h-full object-cover absolute top-0 left-0 rounded-[40px] transition-all duration-500">
+                    alt="imagen de anonimo" class="w-full h-full object-cover absolute top-0 left-0 rounded-[40px]">
 
-                <div class="relative z-[3] text-white opacity-0 translate-y-[30px] hover:opacity-100 hover:translate-y-0">
+                <div
+                    class="relative z-[3] text-white opacity-0 translate-y-[30px] transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0 ">
                     <h1 class="text-[30px] m-0">Administrador</h1>
-                    <p class="text-[15px] mt-[10px] mb-[25px] mx-0 leading-[130%]">Accede al área de administración para gestionar el sistema y realizar ajustes necesarios en la
-                        plataforma</p>
-                    <a href="Ussuarios.html" class="text-decoration-none py-[5px] px-5 bg-white text-[#4b5563] text-[0.85rem] font-bold rounded-full cursor-pointer transition-all duration-300 ease-in">Ir</a>
+                    <p class="text-[15px] mt-[10px] mb-[25px] mx-0 leading-[130%]">
+                        Accede al área de administración para
+                        gestionar el sistema y realizar ajustes necesarios en la
+                        plataforma
+                    </p>
+                    <a href="loginAdamin.html"
+                        class="btn text-decoration-none py-[5px] px-5 bg-white text-[#4b5563] text-[0.85rem] font-bold rounded-full cursor-pointer transition-all duration-300 ease-in">
+                        Ir</a>
                 </div>
             </div>
+
         </div>
 
     </main>
