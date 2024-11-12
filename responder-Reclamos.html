@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestion PQRSF</title>
+    <title>Gestion Reclamos</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -37,40 +37,40 @@
                         </div>
 
                         
-                            <li>
-                                <a href="#" class="block p-2 hover:bg-gray-700 flex items-center">
-                                    <i class="fas fa-chevron-right mr-2 text-xs"></i>
-                                    Peticiones
-                                </a>
-                            
-                            </li>
-
-
-                            <a href="#" class="block p-2 hover:bg-gray-700 flex items-center">
+                        <li>
+                            <a href="/responder-Peticiones.html" class="block p-2 hover:bg-gray-700 flex items-center">
                                 <i class="fas fa-chevron-right mr-2 text-xs"></i>
-                                Quejas
+                                Peticiones
                             </a>
-                    </li>
-
-                    <a href="#" class="block p-2 hover:bg-gray-700 flex items-center">
-                        <i class="fas fa-chevron-right mr-2 text-xs"></i>
-                        Reclamos
-                    </a>
-                    </li>
-
-                    <a href="#" class="block p-2 hover:bg-gray-700 flex items-center">
-                        <i class="fas fa-chevron-right mr-2 text-xs"></i>
-                        Solicitudes
-                    </a>
-                    </li>
-                    <li>
-                        <a href="#" class="block p-2 hover:bg-gray-700 flex items-center">
+    
+                        </li>
+    
+    
+                        <a href="/respnder-Quejas.html" class="block p-2 hover:bg-gray-700 flex items-center">
                             <i class="fas fa-chevron-right mr-2 text-xs"></i>
-                            Felicitaciones
+                            Quejas
                         </a>
+                        </li>
+    
+                        <a href="/responder-Reclamos.html" class="block p-2 hover:bg-gray-700 flex items-center">
+                            <i class="fas fa-chevron-right mr-2 text-xs"></i>
+                            Reclamos
+                        </a>
+                        </li>
+    
+                        <a href="/responder-Solicitudes.html" class="block p-2 hover:bg-gray-700 flex items-center">
+                            <i class="fas fa-chevron-right mr-2 text-xs"></i>
+                            Solicitudes
+                        </a>
+                        </li>
+                        <li>
+                            <a href="/responder-Felicitaciones.html" class="block p-2 hover:bg-gray-700 flex items-center">
+                                <i class="fas fa-chevron-right mr-2 text-xs"></i>
+                                Felicitaciones
+                            </a>
+                        </li>
+                    </ul>
                     </li>
-                </ul>
-                </li>
                 
                 <div class="flex items-center justify-between p-2 bg-gray-700 outline outline-offset-2 outline-1outline outline-offset-2 outline-1">
                     <span class="flex items-center">Eliminar</span>
@@ -121,12 +121,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M22 10.5h-6m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM4 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 10.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
                                 
-                              </svg><p class="  block p-2">Salir</p></a>
-                              
-                              
-                        
-                        
-                       
+                              </svg><p class="  block p-2">Salir</p></a>    
                        
                         </a>
                     </div>
@@ -144,11 +139,11 @@
                         class="rounded-lg border bg-card text-card-foreground shadow-sm mb-5 mr-0 h-min max-w-full pt-8 pb-6 px-6 dark:border-zinc-800 md:mb-0">
                         <div>
                             <p class="text-xl font-extrabold text-zinc-950 dark:text-white md:text-3xl">
-                                Peticiones
+                                Reclamos
                             </p>
                             <p
                                 class="mb-5 mt-1 text-sm font-medium text-zinc-500 dark:text-zinc-400 md:mt-4 md:text-base">
-                                Tiene 3  Peticiones sin leer.
+                                Tiene 3  Reclamos sin leer.
                             </p>
                         </div>
                         <div
@@ -162,10 +157,10 @@
                             </svg>
                             <div>
                                 <p class="text-zinc-950 dark:text-white font-medium mb-1">
-                                   Peticion Recibida.
+                                   Reclamos Recibido.
                                 </p>
                                 <p class="text-zinc-500 dark:text-zinc-400 font-medium">
-                                    usted a recibido una alerta de envio de Peticion hacerca de la sede Bello.
+                                    usted a recibido una alerta de envio de un Reclamo hacerca de la sede Bello.
                                 </p>
                             </div>
                             <button type="button" role="switch" aria-checked="true" data-state="checked" value="on"
@@ -175,14 +170,6 @@
                             </button>
                         </div>
                         <div class="relative mx-auto flex w-full max-w-full md:pt-[unset] mb-6">
-                            <div class="w-2 h-2 mt-1 me-4 rounded-full bg-blue-500"></div>
-                            <div>
-                                <p class="text-zinc-950 dark:text-white font-medium mb-1">
-                                    Ultima alerta recibida.
-                                </p>
-                                <p class="text-zinc-500 dark:text-zinc-400 font-medium">
-                                    1 hora atras.
-                                </p>
 
                                 <button type="button" class="hover:-translate-y-1 hover:scale-110 ease-in duration-300 mt-10 ml-36  px-8 py-3 font-semibold border rounded dark:border-gray-800 dark:text-gray-800  hover:bg-gray-700 hover:text-white">Responder</button>
                             </div>
@@ -192,10 +179,9 @@
                         </div>
                        
             </div>
+        </section>
 
-    </section>
 
-
-</body>
-
-</html>
+    </body>
+    
+    </html>
