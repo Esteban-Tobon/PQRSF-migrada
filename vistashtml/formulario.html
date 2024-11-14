@@ -14,7 +14,7 @@
  
 	<header class="relative leading-[1.6] bg-gradient-to-r from-pink-600 to-slate-300 text-center p-8 shadow-lg " >
 
-		
+		<!-- Imagen CESDE web. -->
 		<img class="stiloImagen absolute top-5 left-5 w-24 h-auto rounded-lg  " style="box-shadow: 4px 4px 16px rgba(240, 236, 236, 0.959);" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaLMO2rJQ-D34ki9Vu_SCL-BL-TOpVEHM6tQ&s" alt="logo">
        
 		<h1 class="stiloH1 font-bold uppercase text-white mt-0 pl-32 text-[2.5em]" style=" text-shadow: 0 3px 0 rgba(65, 64, 64, 0.5);">Crea tu PQRSF llenando el formulario</h1>
@@ -32,6 +32,7 @@
 				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" >¿Acepta la <strong>Política de tratamiento y protección de datos personales</strong> de la
 					institución?</label>
 
+					<!-- Link informacion de politica tratamiento de datos con sus respectivos botones de aceptación. -->
 				<a href="https://www.cesde.edu.co/wp-content/uploads/2023/08/Politica-Proteccion-Datos-Personales-Agosto-2023-PDF.pdf">
 						Ver política
 					</a>
@@ -44,6 +45,7 @@
 					<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" style="transform: scale(1.2);"  for="acepta_no">No</label>
 				</div>
 
+				<!-- Espacio para informacion del nombre de contacto. -->
 				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" for="nombre">Nombre</label>
 				<input  class="w-full p-3 mt-2 rounded-lg bg-white text-[1em]" style="border: 1px solid #ccc; transition: border-color 0.3s ease;" type="text" id="nombre" name="nombre"  placeholder="Ingrese su respuesta" required>
 
@@ -57,15 +59,17 @@
                     <option value="visitante o otros">Visitantes o otros</option>
                 </select>
             
-                
+                <!-- Espacio para correo electronico. -->
 				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" for="correo">Correo electrónico</label>
 				<input  class="w-full p-3 mt-2 rounded-lg bg-white text-[1em]" style="border: 1px solid #ccc; transition: border-color 0.3s ease;" type="email" id="correo" name="correo"  placeholder="Ingrese su respuesta" required>
                 
+				<!-- Espacio para informacion de telefono de contacto. -->
 				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" for="telefono">Teléfono</label>
 				<input  class="w-full p-3 mt-2 rounded-lg bg-white text-[1em]" style="border: 1px solid #ccc; transition: border-color 0.3s ease;" type="tel" id="telefono" name="telefono"  placeholder="Ingrese su respuesta" required>
                 
 				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" for="tipo-pqr">Tipo de PQR</label>
 
+				<!-- Seleccion de la clase de  solicitud. -->
 				<select  class="w-full p-3 mt-2 rounded-lg bg-white text-[1em]" style="border: 1px solid #ccc; transition: border-color 0.3s ease;" id="tipo-pqr" name="tipo-pqr" required>
 					<option value="">Seleccione su respuesta</option>
 					<option value="petición">Petición</option>
@@ -75,10 +79,12 @@
                     <option value="reclamo">Felicitaciones</option>
 				</select>
 
+				<!-- Espacio para contenido de información PQR. -->
 				<label class="font-bold mt-[15px] block text-gray-700 text-[1.2em]" for="descripcion">Descripción</label>
 				
 				<textarea  class="w-full p-3 mt-2 rounded-lg bg-white text-[1em] min-h-[150px] resize-y" style="border: 1px solid #ccc; transition: border-color 0.3s ease;" id="descripcion" name="descripcion"  placeholder="Ingrese su respuesta" required></textarea>
 				
+				<!-- Botones de enviar y resetear formulario. -->
 				<div class="contenedor_enviar flex gap-6  justify-center ">
 					<button class="stiloBoton  text-white bg-slate-600 cursor-pointer rounded-lg 
 					mt-[10px] text-[1.2em] font-bold py-3 px-[29px] hover:bg-pink-600" style="  transition: background-color 0.3s ease;" type="submit">Enviar</button> 
