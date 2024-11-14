@@ -4,36 +4,19 @@
     box-sizing: border-box;
 }
 
-.stiloBody {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+
 	
-}
-.stiloImagen {
-	box-shadow: 4px 4px 16px rgba(240, 236, 236, 0.959);
-}
-.stiloH1 {
-    font-size: 2.5em;
-    text-shadow: 0 3px 0 rgba(65, 64, 64, 0.5);
 
- }
 
- .stiloMain {
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
- }
 
- .estiloParrafoMain {
-    font-size: 1.2em;
-    line-height: 1.8;
- }
-
+/* 
  .formulario label {
     font-weight: bold;
     margin-top: 15px;
     display: block;
     color: #444;
     font-size: 1.2em;
-}
+} */
 
 .formulario input[type="text"],
 .formulario input[type="email"],
@@ -50,18 +33,18 @@
     transition: border-color 0.3s ease;
 }
 
-.formulario input[type="text"]:focus,
+/* .formulario input[type="text"]:focus,
 .formulario input[type="email"]:focus,
 .formulario input[type="tel"]:focus,
 .formulario select:focus,
 .formulario textarea:focus {
-    border-color: #1a73e8; /* Azul al enfocar */
-}
+     border-color: #e81aaa; /* Azul al enfocar 
+} */
 
-.formulario textarea {
+/* .formulario textarea {
     min-height: 150px;
     resize: vertical;
-}
+} */
 
 .politica input {
     transform: scale(1.2);
