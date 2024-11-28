@@ -19,6 +19,7 @@
     color: #f2f2f3;
     justify-content: space-between;
   }
+  /*Abosolute  hace que se posicione de manera absoluta en relación a su contenedor más cercano que tenga una posición establecida */
   
   .image_description {
     position: absolute;
