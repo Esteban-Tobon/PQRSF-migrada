@@ -11,6 +11,7 @@
   }
   
   .up__side {
+    position: relative;
     background-color: rgb(219 39 119);
     display: flex;
     padding: 16px;
@@ -20,7 +21,13 @@
     justify-content: space-between;
   }
   
+
+  /*Abosolute  hace que se posicione de manera absoluta en relación a su contenedor más cercano que tenga una posición establecida */
+
   .image_description {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
     border: 1px solid #f2f2f3;
     border-radius: 4px;
     height: 112px;
@@ -149,11 +156,4 @@
       color: #f8f6f6;
   }
 
-  textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    resize: vertical;
-}
   
